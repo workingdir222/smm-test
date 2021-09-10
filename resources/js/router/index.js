@@ -20,7 +20,7 @@ import AddProductRequest from '../pages/request-product/AddRequest'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history', // https://router.vuejs.org/api/#mode
+  mode: 'history',
   linkActiveClass: 'active',
   scrollBehavior: () => ({ y: 0 }),
   routes: configRoutes()
